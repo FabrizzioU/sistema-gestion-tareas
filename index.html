@@ -7,30 +7,34 @@
 </head>
 <body>
   <header>
-
     <h1>Sistema de Gestion de Actividades</h1>
-
+    <nav>
+      <a href="#registro">Registrar</a>
+      <a href="#listado">Actividades</a>
+    </nav>
   </header>
   <main>
-    <p>Próximamente: formulario y listado de actividades.</p>
-    </section>
+    <section id="registro">
+      <h2>Registrar actividad</h2>
+      <form id="form-actividad">
+        <label>Nombre:</label>
+        <input type="text" id="nombre" required>
 
-    <section id="listado">
-      <h2>Actividades registradas</h2>
-      <table id="tabla-actividades">
-        <thead>
-          <tr>
-            <th>Nombre</th>
-            <th>Responsable</th>
-            <th>Prioridad</th>
-            <th>Estado</th>
-          </tr>
-        </thead>
-        <tbody>
-          <!-- Las actividades se agregarán aquí dinámicamente -->
-        </tbody>
-      </table>
-    </section>
-  </main>
-</body>
-</html>
+        <label>Descripción:</label>
+        <textarea id="descripcion" required></textarea>
+
+        <label>Responsable:</label>
+        <input type="text" id="responsable" required>
+
+        <label>Prioridad:</label>
+        <select id="prioridad">
+          <option value="alta">Alta</option>
+          <option value="media">Media</option>
+          <option value="baja">Baja</option>
+        </select>
+
+        <label>Estado:</label>
+        <select id="estado">
+          <option value="pendiente">Pendiente</option>
+          <option value="en-proceso">En proceso</option>
+          <option value="completado">Completado</option>
