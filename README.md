@@ -50,3 +50,12 @@ Implementar una aplicación sencilla que permita registrar, visualizar y organiz
 
 \- Visualizar actividades registradas.
 
+
+## Estado del proyecto
+Proyecto en desarrollo. Se está trabajando en la interfaz, el formulario de registro y el listado de actividades mediante ramas independientes.
+
+## Flujo de trabajo utilizado
+- Cada funcionalidad se desarrolla en una rama separada (feature/*).
+- Los cambios se integran a `main` mediante Pull Requests.
+- Cada Pull Request es revisado antes de aprobar el merge.
+
