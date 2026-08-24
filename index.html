@@ -10,7 +10,21 @@
     <h1>Gestor de Actividades Académicas</h1>
   </header>
   <main>
-    <p>Próximamente: formulario y listado de actividades.</p>
+    <section id="registro">
+      <h2>Registrar actividad</h2>
+      <form id="form-actividad">
+        <label>Nombre:</label>
+        <input type="text" id="nombre" required>
+
+        <label>Descripción:</label>
+        <textarea id="descripcion" required></textarea>
+
+        <label>Responsable:</label>
+        <input type="text" id="responsable" required>
+
+        <button type="submit">Guardar actividad</button>
+      </form>
+    </section>
   </main>
   <script src="js/app.js"></script>
 </body>
