@@ -1,0 +1,1 @@
+console.log("Gestor de Actividades Académicas cargado");
